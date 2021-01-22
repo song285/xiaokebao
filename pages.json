@@ -1,0 +1,277 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "小马消课",
+				"usingComponents": {
+					"van-icon": "/wxcomponents/vant/dist/icon/index",
+					"van-button": "/wxcomponents/vant/dist/button/index",
+					"van-tabbar": "/wxcomponents/vant/dist/tabbar/index",
+					"van-dropdown-menu": "/wxcomponents/vant/dist/dropdown-menu/index",
+					"van-dropdown-item": "/wxcomponents/vant/dist/dropdown-item/index",
+					"van-tabbar-item": "/wxcomponents/vant/dist/tabbar-item/index",
+					"van-checkbox": "/wxcomponents/vant/dist/checkbox/index",
+					"van-calendar": "/wxcomponents/vant/dist/calendar/index",
+					"van-cell":"/wxcomponents/vant/dist/cell/index",
+					"van-popup": "/wxcomponents/vant/dist/popup/index",
+					"van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+					"van-checkbox-group": "/wxcomponents/vant/dist/checkbox-group/index"
+				}
+			}
+		},
+		{
+		    "path" : "pages/my/index",
+		    "style": {
+		        "navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"usingComponents": {
+				  "van-icon": "/wxcomponents/vant/dist/icon/index",
+				  "van-button": "/wxcomponents/vant/dist/button/index",
+				  "van-tabbar": "/wxcomponents/vant/dist/tabbar/index",
+				  "van-tabbar-item": "/wxcomponents/vant/dist/tabbar-item/index",
+				  "van-cell":"/wxcomponents/vant/dist/cell/index",
+				  "van-cell-group": "/wxcomponents/vant/dist/cell-group/index",
+				  "van-popup": "/wxcomponents/vant/dist/popup/index"
+				}
+		    }
+		},
+		{
+		    "path" : "pages/index/login",
+		    "style" : {
+				"navigationBarTitleText": "小马消课"
+			}
+		},
+		{
+		    "path" : "pages/course/index",
+		    "style" : {
+				"navigationBarTitleText": "小马消课",
+				"usingComponents": {
+				  "van-icon": "/wxcomponents/vant/dist/icon/index",
+				  "van-button": "/wxcomponents/vant/dist/button/index",
+				  "van-tabbar": "/wxcomponents/vant/dist/tabbar/index",
+				  "van-swipe-cell": "/wxcomponents/vant/dist/swipe-cell/index",
+				  "van-tabbar-item": "/wxcomponents/vant/dist/tabbar-item/index",
+				  "van-popup": "/wxcomponents/vant/dist/popup/index"
+				}
+			}
+		}
+		,
+		{
+		    "path" : "pages/course/myCourse",
+		    "style" : {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "课程",
+				"usingComponents": {
+					"van-icon": "/wxcomponents/vant/dist/icon/index",
+					"van-field": "/wxcomponents/vant/dist/field/index",
+					"van-button": "/wxcomponents/vant/dist/button/index",
+					"van-popup": "/wxcomponents/vant/dist/popup/index"
+				}
+			}
+		},
+		{
+		    "path" : "pages/course/changeCourse",
+		    "style" : {
+				"navigationBarTitleText": "调课",
+				"usingComponents": {
+				  "van-field": "/wxcomponents/vant/dist/field/index",
+				  "van-button": "/wxcomponents/vant/dist/button/index",
+				  "van-popup": "/wxcomponents/vant/dist/popup/index",
+				  "van-picker": "/wxcomponents/vant/dist/picker/index",
+				  "van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+				  "van-checkbox": "/wxcomponents/vant/dist/checkbox/index"
+				}
+			}
+		},
+		{
+		    "path" : "pages/course/detail",
+		    "style" : {
+				"navigationBarTitleText": "课程详情",
+				"usingComponents": {
+				  "van-field": "/wxcomponents/vant/dist/field/index",
+				  "van-button": "/wxcomponents/vant/dist/button/index",
+				  "van-popup": "/wxcomponents/vant/dist/popup/index"
+				}
+			}
+		},
+	    {
+            "path" : "pages/course/addCourse",
+            "style" : {
+				"navigationBarTitleText": "添加课程",
+				"usingComponents": {
+				  "van-field": "/wxcomponents/vant/dist/field/index",
+				  "van-icon": "/wxcomponents/vant/dist/icon/index",
+				  "van-button": "/wxcomponents/vant/dist/button/index",
+				  "van-picker": "/wxcomponents/vant/dist/picker/index",
+				  "van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+				  "van-popup": "/wxcomponents/vant/dist/popup/index"
+				}
+			}
+        },
+		{
+			"path" : "pages/course/transferSuccess",
+			"style" : {
+				"navigationBarTitleText": "转移成功"
+			}
+		},
+		{
+			"path" : "pages/course/classRecord",
+			"style" : {
+				"navigationBarTitleText": "上课记录"
+			}
+		}
+        ,{
+            "path" : "pages/course/transfer",
+            "style" : {
+				"navigationStyle":"custom",
+				"usingComponents": {
+					"van-icon": "/wxcomponents/vant/dist/icon/index",
+					"van-field": "/wxcomponents/vant/dist/field/index",
+					"van-button": "/wxcomponents/vant/dist/button/index",
+					"van-popup": "/wxcomponents/vant/dist/popup/index",
+					"van-picker": "/wxcomponents/vant/dist/picker/index"
+				}
+            }
+        }
+        ,{
+            "path" : "pages/my/userInfo",
+            "style" : {
+            	"navigationBarTitleText": "个人信息",
+				"usingComponents": {
+				  "van-popup": "/wxcomponents/vant/dist/popup/index"
+				}
+            }
+        }
+        ,{
+            "path" : "pages/my/message",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/eductionInfo",
+            "style" : {				
+				"navigationBarTitleText": "机构管理"
+			}
+        }
+        ,{
+            "path" : "pages/my/addBaby",
+            "style" : {
+				"navigationBarTitleText": "添加宝宝",
+				"usingComponents": {
+				  "van-popup": "/wxcomponents/vant/dist/popup/index",
+				  "van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/my/msgSetting",
+            "style" : {
+				"navigationBarTitleText": "消息管理",
+				"usingComponents": {
+					"van-switch": "/wxcomponents/vant/dist/switch/index"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/my/customerService",
+            "style" : {
+				"navigationBarTitleText": "联系客服"
+			}
+        }
+        ,{
+            "path" : "pages/my/mechanism",
+            "style" : {
+				"navigationBarTitleText": "机构管理",
+				"usingComponents": {
+					"van-icon": "/wxcomponents/vant/dist/icon/index",
+					"van-swipe-cell": "/wxcomponents/vant/dist/swipe-cell/index",
+					"van-cell":"/wxcomponents/vant/dist/cell/index",
+					// "van-button": "/wxcomponents/vant/dist/button/index",
+					"van-cell-group": "/wxcomponents/vant/dist/cell-group/index"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/course/addClasses",
+            "style" : {
+				"navigationBarTitleText": "加课",
+				"usingComponents":{
+					"van-picker": "/wxcomponents/vant/dist/picker/index",
+					"van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+					"van-popup": "/wxcomponents/vant/dist/popup/index"
+				}
+				
+			}
+        }
+        ,{
+            "path" : "pages/course/evaluateCourse",
+            "style" : {
+				"navigationBarTitleText": "课程评价",
+				"usingComponents": {
+					"van-button": "/wxcomponents/vant/dist/button/index"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/my/feedBack",
+            "style" : {
+				"navigationBarTitleText": "产品反馈",
+				"usingComponents": {
+					"van-button": "/wxcomponents/vant/dist/button/index"
+				}
+			}
+        }
+        ,{
+            "path" : "pages/my/about",
+            "style" : {
+				"navigationBarTitleText": "关于我们"
+			}
+        }
+        ,{
+            "path" : "pages/index/loginAgreement",
+            "style" : {
+				"navigationBarTitleText": "选择家庭身份",
+				"usingComponents": {
+				  "van-icon": "/wxcomponents/vant/dist/icon/index",
+				  "van-action-sheet": "/wxcomponents/vant/dist/action-sheet/index",
+				  "van-popup": "/wxcomponents/vant/dist/popup/index"
+				}
+			}
+        }
+
+        ,{
+            "path" : "pages/index/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账号登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/bill/index",
+			"style" : {
+				"navigationBarTitleText": "小马消课",
+				"usingComponents": {
+				  "van-icon": "/wxcomponents/vant/dist/icon/index",
+				  "van-button": "/wxcomponents/vant/dist/button/index",
+				  "van-tabbar": "/wxcomponents/vant/dist/tabbar/index",
+				  // "van-overlay": "/wxcomponents/vant/dist/overlay/index",
+				  "van-tabbar-item": "/wxcomponents/vant/dist/tabbar-item/index",
+				  "van-popup": "/wxcomponents/vant/dist/popup/index"
+				}
+			}
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "小马消课",
+		"navigationBarBackgroundColor": "#5294F8",
+		"backgroundColor": "#5294F8",
+		"app-plus": {
+			"softinputNavBar": "none"
+		}
+	}
+}
